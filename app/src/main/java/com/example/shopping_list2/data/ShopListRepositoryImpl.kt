@@ -14,12 +14,12 @@ object ShopListRepositoryImpl: ShopListRepository {
 
     private var autoIncrementId = 0
 
-    init {
-        for (i in 0 until 30){
-            val item = ShopItem("Name $i",i, Random.nextBoolean())
-            addShopItem(item)
-        }
-    }
+//    init {
+//        for (i in 0 until 30){
+//            val item = ShopItem("Name $i",i, Random.nextBoolean())
+//            addShopItem(item)
+//        }
+//    }
 
     override fun editShopItem(shopItem: ShopItem) {
         val oldElement = getShopItem(shopItem.id)
