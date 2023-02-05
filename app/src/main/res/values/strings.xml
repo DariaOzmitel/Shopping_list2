@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Shopping_list2</string>
+    <string name="error_input_name">Param name is absent</string>
+    <string name="error_input_count">"Param count is absent"</string>
 </resources>
